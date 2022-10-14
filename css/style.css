@@ -259,6 +259,22 @@ pre {
 /* Footer */
 .footer .social a {
   margin: 0 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer .social .github:hover {
+  color: lightgreen;
+}
+.footer .social .facebook:hover {
+  color: var(--primary-color);
+}
+
+.footer .social .instagram:hover {
+  color: #d52d68;
+}
+
+.footer .social .twitter:hover {
+  color: #1D9BF0;
 }
 
 /* Animations */
